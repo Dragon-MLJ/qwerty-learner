@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
         iconClassName="text-amber-500 bg-amber-100 dark:text-amber-300 dark:bg-amber-500"
         onClose={() => handleCloseInfoPanel('donate')}
       >
-        <p className="indent-4 text-sm text-gray-500 dark:text-gray-300">
+        {/* <p className="indent-4 text-sm text-gray-500 dark:text-gray-300">
           非常感谢大家使用 Qwerty Learner，目前该网站使用业余时间在维护，为了保证网站能够持续地提供给大家高质量的服务，我们需要您的帮助！
           <br />
           您的捐款将有助于我们支付网站的运营成本，改进网站的功能和设计，并提高用户体验。
@@ -69,9 +69,9 @@ const Footer: React.FC = () => {
         </div>
 
         <DonatingCard />
-      </InfoPanel>
+      </InfoPanel> */}
 
-      <InfoPanel
+      {/* <InfoPanel
         openState={infoPanelState.vsc}
         title="VSCode 摸🐟插件"
         icon={IconTerminal2}
@@ -117,9 +117,9 @@ const Footer: React.FC = () => {
         <br />
         <img className="ml-1 w-2/6 " src="https://qwerty.kaiyi.cool/weChat-group.jpg" alt="weChat-group" />
         <br />
-      </InfoPanel>
+      </InfoPanel> */}
 
-      <InfoPanel
+      {/* <InfoPanel
         openState={infoPanelState.redBook}
         title="小红书社群"
         icon={IconXiaoHongShu}
@@ -142,14 +142,14 @@ const Footer: React.FC = () => {
         <img className="ml-1 w-5/12 " src={redBookCode} alt="redBook" />
         <p className="text-sm text-gray-500 dark:text-gray-400">Tips: 从小红书“我”的左上角点击 三 找到 扫一扫</p>
         <br />
-      </InfoPanel>
+      </InfoPanel> */}
 
       <footer className="mb-1 mt-4 flex w-full items-center justify-center gap-2.5 text-sm ease-in" onClick={(e) => e.currentTarget.blur()}>
         <a href="https://github.com/Kaiyiwing/qwerty-learner" target="_blank" rel="noreferrer" aria-label="前往 GitHub 项目主页">
           <IconGithub fontSize={15} className="text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100" />
         </a>
 
-        <button
+        {/* <button
           className="cursor-pointer"
           type="button"
           onClick={(e) => {
@@ -234,7 +234,7 @@ const Footer: React.FC = () => {
           rel="noreferrer"
         >
           鲁ICP备2022030649号
-        </a>
+        </a> */}
         <span className="select-none rounded bg-slate-200 px-1 text-xs text-slate-600 dark:bg-slate-800 dark:text-slate-400">
           Build <span className="select-all">{LATEST_COMMIT_HASH}</span>
         </span>
