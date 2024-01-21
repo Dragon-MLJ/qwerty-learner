@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
 
   return (
     <>
-      <InfoPanel
+      {/* <InfoPanel
         openState={infoPanelState.donate}
         title="Buy us a coffee"
         icon={IconCoffee}
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
         iconClassName="text-amber-500 bg-amber-100 dark:text-amber-300 dark:bg-amber-500"
         onClose={() => handleCloseInfoPanel('donate')}
       >
-        {/* <p className="indent-4 text-sm text-gray-500 dark:text-gray-300">
+        <p className="indent-4 text-sm text-gray-500 dark:text-gray-300">
           非常感谢大家使用 Qwerty Learner，目前该网站使用业余时间在维护，为了保证网站能够持续地提供给大家高质量的服务，我们需要您的帮助！
           <br />
           您的捐款将有助于我们支付网站的运营成本，改进网站的功能和设计，并提高用户体验。
@@ -91,9 +91,9 @@ const Footer: React.FC = () => {
           VSCode 插件链接
         </a>
         <br />
-      </InfoPanel>
+      </InfoPanel> */}
 
-      <InfoPanel
+      {/* <InfoPanel
         openState={infoPanelState.community}
         title="用户反馈社群"
         icon={IconWechat}
